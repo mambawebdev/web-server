@@ -1,0 +1,21 @@
+GET /get HTTP/1.1
+Host: httpbin.org
+
+HTTP/1.1 200 OK
+Date: Sun, 15 Mar 2026 21:53:36 GMT
+Content-Type: application/json
+Content-Length: 199
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {}, 
+  "headers": {
+    "Host": "httpbin.org", 
+    "X-Amzn-Trace-Id": "Root=1-69b72a5f-6dd81bf2485b9a521579ee1a"
+  }, 
+  "origin": "184.148.59.196", 
+  "url": "http://httpbin.org/get"
+}
